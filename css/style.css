@@ -1,0 +1,126 @@
+*{margin:0;padding: 0; box-sizing: border-box;font-family: 'Times New Roman', Times, serif,Arial, Helvetica, sans-serif}
+
+.main{
+    width: 100%;
+    background-image: url("https://genknews.genkcdn.vn/2018/9/18/photo-1-15372748227801609217122.jpg");
+    background-size: contain;
+    background-position-y: -66px;
+}
+.main a{
+    text-decoration: none;
+    color:  rgb(255, 255, 255);
+}
+.banner{ 
+    display: flex;
+    width:100%;
+    height: 60px;
+    padding: 10px 0;
+    background: rgb(13,12,15);
+    background: linear-gradient(66deg, rgba(13,12,15,1) 0%, rgba(62,68,198,0) 0%, rgba(82,92,217,0.8491771708683473) 53%,
+     rgba(14,223,227,0.6727065826330532) 53%, rgba(142,189,215,1) 100%);
+}
+.banner-nd {
+    width:80%;
+    margin:5px 100px;;
+}
+.banner-nd i,.banner-nd span{
+    color: white;
+    padding: 5px 3px;
+}
+.banner-seach{
+    background: white;
+    width:25%;
+    height: 29px;
+    margin: 5px 100px 5px 0;
+    border-radius: 3%;
+}
+.banner-seach input{
+    border: 0px;
+    margin-left: 15px;
+}
+.banner-seach button{
+    background: white;
+    border:0;
+    width: 30px;
+    height: 100%;
+}
+.menu{
+    height: 500px;
+    margin-left: 300px;
+}
+.menu ul {
+    display: flex;
+    
+}
+.menu ul li{
+    margin: 5px 30px;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.content{
+    width: 80%;
+    background: rgb(13,12,15);
+    background: linear-gradient(352deg, rgba(13,12,15,1) 0%, rgba(68,77,231,0) 0%, rgba(143,142,215,1) 53%,
+     rgba(82,92,217,0.8491771708683473) 53%, rgba(14,223,227,0.6727065826330532) 98%);
+    margin-left: 140px;
+    display: flex;
+    opacity: 1;
+}
+.content-left{
+    width: 75%;
+    border-bottom: 1px solid #AAA;
+    padding: 10px 25px;
+}
+.content-left img{
+    width:100%;
+}
+.content-left .content-nd{
+    border-top: 1px solid #AAA;
+}
+
+/* contnet right*/
+.content-right{
+    padding: 10px 25px;
+    height: 600px;
+}
+
+.content-right .item{
+    display: flex;
+    padding: 5px 5px;
+    border-bottom:1px solid #EEE;
+}
+.content-right img{
+    width: 170px;
+    height: 115px;
+    transform: scale(1,1);
+}
+.content-right .item :hover img{
+    transform: scale(1.1,1.1);
+    transition: all 0.7s;
+}
+.content-right .item .item-text{
+    padding-left: 15px;
+    margin-top:20px;
+}
+.item-text :hover a{
+    color: rgb(25, 0, 255);
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background: rgb(13,12,15);
+    background: linear-gradient(165deg, rgba(13,12,15,1) 0%, rgba(82,92,217,0.8491771708683473) 53%,
+ rgba(14,223,227,1) 53%, rgba(32,196,14,1) 53%, rgba(60,205,247,1) 53%);
+}
+.footer h4{
+    color: white;
+   text-align: center;
+   padding-top: 20px;
+}
+
